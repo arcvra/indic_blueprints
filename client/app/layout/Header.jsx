@@ -3,7 +3,7 @@ import { RiNotionFill } from "react-icons/ri";
 
 export default function Header() {
     return (
-        <header className="header-layout bg-zinc-900 grid grid-cols-2 px-20 py-5 items-center">
+        <header className="header-layout bg-black-900 grid grid-cols-2 px-20 py-5 items-center">
             <h1>Logo placeholder</h1>
             <div className="justify-self-end-safe">
                 <ul className="flex gap-4">

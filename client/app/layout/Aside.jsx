@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Aside() {
     return (
-        <aside className="aside-layout bg-zinc-800 p-5 shadow-md">
+        <aside className="aside-layout bg-black-900 p-5 shadow-md">
             <div className="text-xl font-bold mb-5">Mockup Header</div>
             <nav className="mt-5">
                 <ul className="list-none p-0">
