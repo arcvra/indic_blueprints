@@ -116,7 +116,25 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
+}
+
+body {
+  width: 100dvw;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: minmax(250px, 30%) 70%;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas:
+    "aside header"
+    "aside main"
+    "footer footer";
+}
+
+header.header-layout {
+  grid-area: header;
 }
