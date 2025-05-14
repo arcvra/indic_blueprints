@@ -127,8 +127,8 @@ body {
   min-height: 100dvh;
   overflow-x: hidden;
   display: grid;
-  grid-template-columns: minmax(250px, 30%) 70%;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: minmax(250px, 20%) 80%;
+  grid-template-rows: auto 1fr auto;
   grid-template-areas:
     "aside header"
     "aside main"
@@ -145,4 +145,8 @@ footer.footer-layout {
 
 main.main-layout {
   grid-area: main;
+}
+
+aside.aside-layout {
+  grid-area: aside;
 }
