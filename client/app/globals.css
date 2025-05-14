@@ -122,6 +122,10 @@
   }
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   width: 100dvw;
   min-height: 100dvh;
@@ -149,4 +153,9 @@ main.main-layout {
 
 aside.aside-layout {
   grid-area: aside;
+}
+
+p,
+a {
+  margin-block: 1lvh;
 }
