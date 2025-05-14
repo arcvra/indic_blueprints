@@ -138,3 +138,11 @@ body {
 header.header-layout {
   grid-area: header;
 }
+
+footer.footer-layout {
+  grid-area: footer;
+}
+
+main.main-layout {
+  grid-area: main;
+}
