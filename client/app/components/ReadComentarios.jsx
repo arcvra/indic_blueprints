@@ -2,6 +2,7 @@ import ReactMarkdown from "react-markdown";
 import { Badge } from "@/components/ui/badge"
 import { comentarios } from "@/app/data/comentarios";
 import { CustomButton } from "./CustomButton";
+import { CustomTooltip } from "./CustomTooltip";
 
 export const ReadComentarios = () => {
     return comentarios.map((item) => (
@@ -15,7 +16,7 @@ export const ReadComentarios = () => {
                 </ReactMarkdown>
             </div>
 
-            <CustomButton/>
+            <CustomTooltip />
             
             <ul className="flex gap-4 mt-5">
                 <GetCategories keywords={item.keywords} />
