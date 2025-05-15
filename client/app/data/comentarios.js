@@ -50,7 +50,7 @@ Tingueu en compte que al signar l'albarà cal omplir les caselles de DNI, Nom, C
 
 Esperem la vostra resposta el més aviat possible. Agraïm la vostra col·laboració.
 
-Disculpeu les molèsties ocasionades. `,
+Disculpeu les molèsties ocasionades.`,
         keywords: ["disculpas", "firmada", "completo"]
     },
     {
@@ -89,8 +89,7 @@ Per aquest motiu, us demanem, si us plau, que signeu digitalment la versió actu
         id: 7,
         content:
             `
-La signatura digital sempre ha de ser _l’última_ addició al document; qualsevol modificació posterior anul·la la seva validesa.
-            `,
+La signatura digital sempre ha de ser _l’última_ addició al document; qualsevol modificació posterior anul·la la seva validesa.`,
         keywords: ["firma", "digital", "válido"]
     },
     {
@@ -100,8 +99,7 @@ La signatura digital sempre ha de ser _l’última_ addició al document; qualse
     - Acta de replanteig: que detallen les actuacions que s’han realitzat.
     - Acta d’instal·lació: que certifica la instal·lació que s'ha realitzat.
     - Albarà de panells: que certifica l'entrega dels panells al centre.
-    - Albarà TIC: que certifica l'entrega de la resta d'elements TIC
-            `,
+    - Albarà TIC: que certifica l'entrega de la resta d'elements TIC`,
         keywords: ["acta", "albarán", "documentos", "completo"]
     },
     {
