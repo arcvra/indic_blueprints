@@ -134,8 +134,8 @@ body {
   grid-template-columns: minmax(250px, 20%) 80%;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
-    "aside header"
-    "aside main"
+    "header header"
+    "main main"
     "footer footer";
 }
 
@@ -153,6 +153,7 @@ main.main-layout {
 
 aside.aside-layout {
   grid-area: aside;
+  display: none;
 }
 
 p,
