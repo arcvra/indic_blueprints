@@ -6,12 +6,12 @@ import {
 } from "@/components/ui/tooltip";
 import { CustomButton } from "@/app/components/CustomButton";
 
-export function CustomTooltip() {
+export function CustomTooltip({onClick}) {
     return (
         <TooltipProvider>
             <Tooltip>
                 <TooltipTrigger asChild>
-                    <CustomButton />
+                    <CustomButton onClick={onClick} />
                 </TooltipTrigger>
                 <TooltipContent>
                     <p>Copiar al portapapeles</p>
