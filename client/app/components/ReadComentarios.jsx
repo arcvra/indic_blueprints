@@ -4,7 +4,7 @@ import { comentarios } from "@/app/data/comentarios";
 
 export const ReadComentarios = () => {
     return comentarios.map((item) => (
-        <article key={item.id} className=" w-full break-words font-thin p-5 mb-8 border-1 border-zinc-300 rounded-md">
+        <article key={item.id} className="w-full break-words font-thin p-5 mb-8 border-1 border-neutral-700 rounded-xl bg-neutral-900 drop-shadow-sm drop-shadow-accent hover:drop-shadow-md hover:drop-shadow-accent transition-drop-shadow duration-300">
             <div className="grid">
                 <ReactMarkdown
                     components={{
