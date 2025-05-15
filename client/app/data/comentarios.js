@@ -2,20 +2,22 @@ export const comentarios = [
     {
         id: 1,
         content:
-            `Benvolgut, benvolguda,
+            `
+Benvolgut, benvolguda,
 
-            amb el propòsit de concloure l'instal·lació dels panells digitals necessitaríem la següent documentació signada electrònicament i en format color;  en blanc i negre no ens és vàlid perquè perd qualitat d'imatge:
-            
-            - Acta de replanteig: que detallen les actuacions que s’han realitzat.
-            - Acta d’instal·lació: que certifica la instal·lació que s'ha realitzat.
-            - Albarà de panells: que certifica l'entrega dels panells al centre.
-            - Albarà TIC: que certifica l'entrega de la resta d'elements TIC
-                
-            Tingueu en compte que al signar l'albarà cal omplir les caselles de DNI, Nom, Càrrec i Conformitat. Podeu emplenar les caselles escrivint amb l'eina “Afegir comentari de text” d'Acrobat Reader o programa similar. La signatura digital sempre ha de ser l'última addició al document; qualsevol modificació posterior anul·la la seva validesa.
-                
-            Esperem la vostra resposta el més aviat possible. Agraïm la vostra col·laboració.
-                
-            Disculpeu les molèsties ocasionades.`,
+amb el propòsit de concloure l'instal·lació dels panells digitals necessitaríem la següent documentació signada electrònicament i en format color;  en blanc i negre no ens és vàlid perquè perd qualitat d'imatge:
+
+    - Acta de replanteig: que detalla les actuacions que s’han realitzat.
+    - Acta d’instal·lació: que certifica la instal·lació que s'ha realitzat.
+    - Albarà de panells: que certifica l'entrega dels panells al centre.
+    - Albarà TIC: que certifica l'entrega de la resta d'elements TIC.
+
+Tingueu en compte que al signar l'albarà cal omplir les caselles de **DNI**, **Nom**, **Càrrec** i **Conformitat**. Podeu emplenar les caselles escrivint amb l'eina “Afegir comentari de text” d'Acrobat Reader o programa similar. La signatura digital sempre ha de ser l'última addició al document; qualsevol modificació posterior anul·la la seva validesa.
+
+Esperem la vostra resposta el més aviat possible. Agraïm la vostra col·laboració.
+
+Disculpeu les molèsties ocasionades.
+            `,
 
         keywords: ["predeterminado", "completo", "firma"]
     },
@@ -24,84 +26,88 @@ export const comentarios = [
         content:
             `Benvolgut/da,
 
-            Us agraïm que ens hàgiu fet arribar la documentació signada. Tanmateix, us informem que el format en què l’hem rebuda no és l’adequat.
-
-            Entenem que el procés de signatura i enviament pot suposar una certa càrrega. Per tal de facilitar-vos la gestió, hem completat els camps necessaris amb les dades que ens heu proporcionat, de manera que només cal afegir-hi la vostra signatura electrònica en el camp corresponent.
-
-            Recordeu que no cal afegir-hi el segell; amb la signatura electrònica n’hi ha prou.`,
+Us agraïm que ens hàgiu fet arribar la documentació signada. Tanmateix, us informem que el format en què l’hem rebuda no és l’adequat. Entenem que el procés de signatura i enviament pot suposar una càrrega. Per tal de facilitar-vos la gestió, hem completat els camps necessaris amb les dades que ens heu proporcionat, de manera que només cal afegir-hi la vostra signatura electrònica en el camp corresponent. Recordeu que no cal afegir-hi el segell; amb la signatura electrònica n’hi ha prou.`,
         keywords: ["formato", "campos", "firmada"]
     },
     {
         id: 3,
         content:
-            `Benvolgut, benvolguda,
+            `
+Benvolgut/da,
 
-            us agraïm que ens hagueu enviat la documentació signada, i us volem demanar disculpes pels excessius correus enviats aquests últims mesos. Som conscients de la càrrega que pot suposar i agraïm la vostra paciència i comprensió.
+us agraïm que ens hagueu enviat la documentació signada, i us volem demanar disculpes pels excessius correus enviats aquests últims mesos. Som conscients de la càrrega que pot suposar i agraïm la vostra paciència i comprensió.
 
-            Estem realitzant el procés de revisió de la documentació i, si sou tan amables, necessitaríem que ens la tornéssiu a enviar signada electrònicament i en format color;  en blanc i negre no ens és vàlid perquè perd qualitat d'imatge:
+Estem realitzant el procés de revisió de la documentació i, si sou tan amables, necessitaríem que ens la tornéssiu a enviar signada electrònicament i en format color;  en blanc i negre no ens és vàlid perquè perd qualitat d'imatge:
 
-            - Acta de replanteig: que detalla les actuacions pendent de realitzar.
-            - Acta d’instal·lació: que certifica la instal·lació final.
-            - Albarà de panells: que certifica l'entrega dels panells al centre.
-            - Albarà TIC: que certifica l'entrega de la resta d'elements TIC.
+    - Acta de replanteig: que detalla les actuacions pendent de realitzar.
+    - Acta d’instal·lació: que certifica la instal·lació final.
+    - Albarà de panells: que certifica l'entrega dels panells al centre.
+    - Albarà TIC: que certifica l'entrega de la resta d'elements TIC.
 
-            Observareu també que n'hi ha canvis respecte als document anteriors firmat a causa d'actualitzacions de criteris interns.
+Observareu també que n'hi ha canvis respecte als document anteriors firmat a causa d'actualitzacions de criteris interns.
 
-            Tingueu en compte que al signar l'albarà cal omplir les caselles de DNI, Nom, Càrrec i Conformitat. Podeu emplenar les caselles escrivint amb l'eina “Afegir comentari de text” d'Acrobat Reader o programa similar. La signatura digital sempre ha de ser l'última addició al document; qualsevol modificació posterior anul·la la seva validesa, i haurem de demanar-vos la documentació de nou.
+Tingueu en compte que al signar l'albarà cal omplir les caselles de DNI, Nom, Càrrec i Conformitat. Podeu emplenar les caselles escrivint amb l'eina “Afegir comentari de text” d'Acrobat Reader o programa similar. La signatura digital sempre ha de ser l'última addició al document; qualsevol modificació posterior anul·la la seva validesa.
 
-            Esperem la vostra resposta el més aviat possible. Agraïm la vostra col·laboració.
+Esperem la vostra resposta el més aviat possible. Agraïm la vostra col·laboració.
 
-            Disculpeu les molèsties ocasionades. `,
+Disculpeu les molèsties ocasionades. `,
         keywords: ["disculpas", "firmada", "completo"]
     },
     {
         id: 4,
         content:
-            `Benvolgut/da,
+            `
+Benvolgut/da,
 
-            A causa d’un error intern en la redacció de l’Acta de Replanteig i de l’Acta d’Instal·lació, els documents que us vàrem fer arribar al febrer contenien unes observacions en un format inadequat. Concretament, [SUSTIUIR POR COMENTARIO ESPECÍFICO].
+A causa d’un error intern en la redacció de l’Acta de Replanteig i de l’Acta d’Instal·lació, els documents que us vàrem fer arribar al febrer contenien unes observacions en un format inadequat. Concretament, [SUSTIUIR POR COMENTARIO ESPECÍFICO].
                 
-            Per aquest motiu, us demanem, si us plau, que torneu a signar aquests documents amb la vostra signatura digital, tal com heu fet amb la resta de la documentació.
-            Us demanem disculpes per les molèsties i per la insistència, i us agraïm molt la vostra col·laboració.
+Per aquest motiu, us demanem, si us plau, que torneu a signar aquests documents amb la vostra signatura digital, tal com heu fet amb la resta de la documentació.
+Us demanem disculpes per les molèsties i per la insistència, i us agraïm molt la vostra col·laboració.
                 
-            Cordialment,`,
+Cordialment,`,
         keywords: ["disculpas", "firmada", "antiguo", "corrección", "actualización"]
     },
     {
         id: 5,
         content:
-            `Hem detectat que [DOCUMENT ERRONI] que us vàrem fer arribar [INCLUIR MES] contenia diverses errades de format i edició [REEMPLEZAR POR INCIDENCIA CORRECTA]. 
-            
-            Per aquest motiu, us demanem, si us plau, que signeu digitalment la versió actualitzada del document. Així mateix, us adjuntem la resta de la documentació pendent de signar per tal de facilitar-vos el procés.`,
+            `
+Hem detectat que **[DOCUMENT ERRONI]** que us vàrem fer arribar **[INCLUIR MES]** contenia diverses errades de format i edició. Concretament, **[REEMPLEZAR POR INCIDENCIA CORRECTA]**. 
+
+Per aquest motiu, us demanem, si us plau, que signeu digitalment la versió actualitzada del document. Així mateix, **[REVISAR SI APLICA]** us adjuntem la resta de la documentació pendent de signar per tal de facilitar-vos el procés.`,
         keywords: ["firmada", "corrección", "concreta", "adjunto", "múltiple"]
     },
     {
         id: 6,
         content:
-            `Hem detectat que l'Acta d'Instal·lació que us vàrem fer arribar al febrer contenia diverses errades de format i edició. En destaquen especialment les relatives als detalls de Serveis, que no constaven ni al Resum ni al detall específic de cada aula. 
-        
-            Per aquest motiu, us demanem, si us plau, que signeu digitalment la versió actualitzada del document que us adjuntem.`,
+            `
+Hem detectat que **l'Acta d'Instal·lació** que us vàrem fer arribar al febrer contenia diverses errades de format i edició. En destaquen especialment les relatives als detalls de **Serveis**, que no constaven ni al Resum ni al detall específic de cada aula. 
+
+Per aquest motiu, us demanem, si us plau, que signeu digitalment la versió actualitzada del document que us adjuntem.`,
         keywords: ["formato", "serveis", "servicios", "detalle", "adjunto", "específico"]
     },
     {
         id: 7,
         content:
-            `La signatura digital sempre ha de ser l’última addició al document; qualsevol modificació posterior anul·la la seva validesa.`,
+            `
+La signatura digital sempre ha de ser _l’última_ addició al document; qualsevol modificació posterior anul·la la seva validesa.
+            `,
         keywords: ["firma", "digital", "válido"]
     },
     {
         id: 8,
         content:
-            `- Acta de replanteig: que detallen les actuacions que s’han realitzat.
-            - Acta d’instal·lació: que certifica la instal·lació que s'ha realitzat.
-            - Albarà de panells: que certifica l'entrega dels panells al centre.
-            - Albarà TIC: que certifica l'entrega de la resta d'elements TIC`,
+            `
+    - Acta de replanteig: que detallen les actuacions que s’han realitzat.
+    - Acta d’instal·lació: que certifica la instal·lació que s'ha realitzat.
+    - Albarà de panells: que certifica l'entrega dels panells al centre.
+    - Albarà TIC: que certifica l'entrega de la resta d'elements TIC
+            `,
         keywords: ["acta", "albarán", "documentos", "completo"]
     },
     {
         id: 9,
         content:
-            `Tingueu en compte que al signar l'albarà cal omplir les caselles de DNI, Nom, Càrrec i Conformitat. Podeu emplenar les caselles escrivint amb l'eina “Afegir comentari de text” d'Acrobat Reader o programa similar. La signatura digital sempre ha de ser l'última addició al document; qualsevol modificació posterior anul·la la seva validesa.`,
+            `Tingueu en compte que al signar l'albarà cal omplir les caselles de **DNI**, **Nom**, **Càrrec** i **Conformitat**. Podeu emplenar les caselles escrivint amb l'eina “Afegir comentari de text” _d'Acrobat Reader_ o programa similar. La signatura digital sempre ha de ser l'última addició al document; qualsevol modificació posterior anul·la la seva validesa.`,
         keywords: ["firma", "formato", "DNI", "digital", "válido"]
     }
 ]
