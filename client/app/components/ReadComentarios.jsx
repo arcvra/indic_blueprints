@@ -4,6 +4,7 @@ import { Badge } from "@/components/ui/badge"
 import { comentarios } from "@/app/data/comentarios";
 import { CustomTooltip } from "@/app/components/CustomTooltip";
 import { useRef } from "react";
+import styles from "@/app/styles/article.module.css";
 
 const ComentarioItem = ({ item }) => {
     const textRef = useRef(null);
@@ -15,24 +16,28 @@ const ComentarioItem = ({ item }) => {
     }
 
     return (
-        <article className="relative w-full break-words font-thin p-5 mb-8 border-1 border-neutral-700 rounded-xl bg-neutral-900 drop-shadow-sm drop-shadow-accent hover:drop-shadow-md hover:drop-shadow-accent transition-drop-shadow duration-300">
-            <div
-                ref={textRef}
-                className="grid">
-                <ReactMarkdown
-                    components={{
-                    }}
-                >
-                    {item.content}
-                </ReactMarkdown>
-            </div>
+        <div className={styles.articleWrapper}>
+            <div className={`${styles.articleFancy} rounded-xl`}></div>
+            <article className={`${styles.article} relative w-full break-words font-thin p-5 border-1 border-zinc-700 rounded-xl bg-neutral-900`}>
+                <div
+                    ref={textRef}
+                    className="grid">
+                    <ReactMarkdown
+                        components={{
+                        }}
+                    >
+                        {item.content}
+                    </ReactMarkdown>
+                </div>
 
-            <CustomTooltip onClick={handleCopy} />
+                <CustomTooltip onClick={handleCopy} />
 
-            <ul className="flex gap-4 mt-5">
-                <GetCategories keywords={item.keywords} />
-            </ul>
-        </article>
+                <ul className="flex gap-4 mt-3 mb-3">
+                    <GetCategories keywords={item.keywords} />
+                </ul>
+            </article>
+
+        </div>
     )
 }
 
