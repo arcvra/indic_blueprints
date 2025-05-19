@@ -1,8 +1,8 @@
 "use client"
 import ReactMarkdown from "react-markdown";
-import { Badge } from "@/components/ui/badge"
 import templates from "@/app/data/templates.json"
-import { CustomTooltip } from "@/app/components/CustomTooltip";
+import { CustomTooltip } from "@/components/CustomTooltip";
+import { CustomBadge } from "@/components/CustomBadge";
 import { useRef } from "react";
 import styles from "@/app/styles/article.module.css";
 
@@ -53,8 +53,3 @@ export const GetCategories = ({ keywords }) => {
         <li key={index}> <CustomBadge category={keyword} /> </li>
     ));
 };
-
-
-export const CustomBadge = ({ category }) => {
-    return <Badge className="transition-colors hover:bg-primary/80 cursor-pointer hover:drop-shadow-sm hover:drop-shadow-neutral-950">{category}</Badge>
-}

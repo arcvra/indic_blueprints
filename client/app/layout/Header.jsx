@@ -1,6 +1,6 @@
 import { FaGithub } from "react-icons/fa";
 import { RiNotionFill } from "react-icons/ri";
-import { CustomInput } from "../components/CustomInput";
+import { CustomInput } from "../../components/CustomInput";
 
 export default function Header() {
     return (

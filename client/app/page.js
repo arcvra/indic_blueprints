@@ -1,4 +1,4 @@
-import { ReadComentarios } from "@/app/components/ReadComentarios";
+import { ReadComentarios } from "@/app/features/ReadComentarios";
 
 export default function Home() {
 
