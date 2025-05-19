@@ -1,7 +1,7 @@
 "use client"
 import ReactMarkdown from "react-markdown";
 import { Badge } from "@/components/ui/badge"
-import { comentarios } from "@/app/data/comentarios";
+import templates from "@/app/data/templates.json"
 import { CustomTooltip } from "@/app/components/CustomTooltip";
 import { useRef } from "react";
 import styles from "@/app/styles/article.module.css";
@@ -42,7 +42,7 @@ const ComentarioItem = ({ item }) => {
 }
 
 export const ReadComentarios = () => {
-    return comentarios.map((item) => (
+    return templates.map((item) => (
         <ComentarioItem key={item.id} item={item} />
     ))
 
