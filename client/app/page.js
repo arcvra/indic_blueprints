@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="main-layout grid px-20 gap-y-20 bg-black-900 py-10">
 
-      <CustomTabs file={templates} />
+      <CustomTabs fileType={"templates"} file={templates} />
     </main>
   );
 }
