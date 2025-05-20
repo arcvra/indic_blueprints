@@ -4,9 +4,9 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export function CustomTabs({ file }) { // TODO: add categories and style
     return (
-        <Tabs defaultValue="account">
+        <Tabs defaultValue="completo">
             <TabsList>
-                <TabsTrigger value="completo">Completo</TabsTrigger>
+                <TabsTrigger value="completo" >Completo</TabsTrigger>
                 <TabsTrigger value="firma">Firma</TabsTrigger>
             </TabsList>
             <TabsContent value="completo">
