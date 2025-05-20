@@ -2,7 +2,7 @@ import { MapItems } from "@/app/features/RenderCards"
 import { filterByCategory } from "@/utils/filterByCategory"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
-export function CustomTabs({ file }) { // TODO: add categories and style
+export function CustomTabs({ file }) { // TODO: refactor for {file} reusability
     return (
         <Tabs defaultValue="predeterminado">
             <TabsList className="border-neutral-900 border-2 gap-5 px-2 h-15">
