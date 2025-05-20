@@ -12,6 +12,7 @@ export function CustomTabs({ file }) { // TODO: add categories and style
                 <TabsTrigger value="disculpas">Disculpas</TabsTrigger>
                 <TabsTrigger value="corrección">Corrección</TabsTrigger>
                 <TabsTrigger value="formato">Formato</TabsTrigger>
+                <TabsTrigger value="">Todos</TabsTrigger>
             </TabsList>
 
             <TabsContent value="predeterminado">
@@ -37,7 +38,11 @@ export function CustomTabs({ file }) { // TODO: add categories and style
             <TabsContent value="formato">
                 <MapItems items={filterByCategory({ file: file, tag: "formato" })} />
             </TabsContent>
-        </Tabs>
 
+            <TabsContent value="">
+                <MapItems items={file} />
+            </TabsContent>
+            
+        </Tabs>
     )
 }
