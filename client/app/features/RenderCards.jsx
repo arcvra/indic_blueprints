@@ -15,7 +15,7 @@ const CreateCards = ({ item }) => {
     }
 
     return (
-        <div className={styles.articleWrapper}>
+        <div className={`${styles.articleWrapper} m-10`}>
             <div className={`${styles.articleFancy} rounded-xl`}></div>
             <article className={`${styles.article} relative w-full break-words font-thin p-5 border-1 border-zinc-700 rounded-xl bg-neutral-900`}>
                 <div
