@@ -34,7 +34,8 @@
             "firmada",
             "antiguo",
             "corrección",
-            "actualización"
+            "actualización",
+            "serveis"
         ]
     },
     {
@@ -45,7 +46,8 @@
             "corrección",
             "concreta",
             "adjunto",
-            "múltiple"
+            "múltiple",
+            "serveis"
         ]
     },
     {
@@ -54,7 +56,6 @@
         "keywords": [
             "formato",
             "serveis",
-            "servicios",
             "adjunto",
             "detalle",
             "específico"
@@ -71,7 +72,7 @@
     },
     {
         "id": 8,
-        "content": "\n\n- Acta de replanteig: que detallen les actuacions que s’han realitzat.\n\n- Acta d’instal·lació: que certifica la instal·lació que s'ha realitzat.\n\n- Albarà de panells: que certifica l'entrega dels panells al centre.\n\n- Albarà TIC: que certifica l'entrega de la resta d'elements TIC",
+        "content": "- Acta de replanteig: que detallen les actuacions que s’han realitzat.\n\n - Acta d’instal·lació: que certifica la instal·lació que s'ha realitzat.\n\n - Albarà de panells: que certifica l'entrega dels panells al centre.\n\n - Albarà TIC: que certifica l'entrega de la resta d'elements TIC",
         "keywords": [
             "acta",
             "albarán",
@@ -85,9 +86,22 @@
         "keywords": [
             "firma",
             "formato",
+            "datos",
             "DNI",
             "digital",
             "válido"
+        ]
+    },
+    {
+        "id": 10,
+        "content": "Benvolgut/da,\n\nEn primer lloc, volem demanar disculpes per l’enviament excessiu de correus durant aquests darrers mesos. Som conscients que pot haver estat inconvenient i us agraïm la vostra comprensió.\n\nEns posem novament en contacte amb vosaltres perquè necessitem que ens torneu a enviar l’acta d’instal·lació degudament signada. Hem fet una actualització del document i s’hi han incorporat unes noves caselles referents als serveis.\n\nMoltes gràcies per la vostra col·laboració.\n\nCordialment,",
+        "keywords": [
+            "serveis",
+            "actualización",
+            "disculpas",
+            "completo",
+            "corrección",
+            "múltiple"
         ]
     }
 ]
