@@ -1,52 +1,280 @@
 [
     {
-        "id": "1",
-        "content": "",
-        "keywords": ["replanteig"]
+        "id": 1,
+        "content": "Resum del material a retirar: Kit de projecció (projector (SACE/TIC: 26XXXX)/(SN: xawxwa), pantalla enrotllable i caixa de connexions), Altaveus, PDI (SACE/TIC: 0000), Panell digital antic, Pissarra blanca, Pissarra verda de guix, Suro, Mobiliari genèric (prestatges, armaris, taula...).",
+        "keywords": [
+            "replanteig",
+            "retirada",
+            "projector",
+            "predeterminado",
+            "SACE",
+            "SN"
+        ]
     },
     {
-        "id": "2",
-        "content": "",
-        "keywords": ["replanteig"]
+        "id": 2,
+        "content": "Resum del material a retirar: No fa falta adequació.",
+        "keywords": [
+            "replanteig",
+            "retirada",
+            "adequació"
+        ]
     },
     {
-        "id": "3",
-        "content": "",
-        "keywords": ["replanteig"]
+        "id": 3,
+        "content": "Resum del material a retirar: No es fa retirada perquè es monta suport amb rodes.",
+        "keywords": [
+            "replanteig",
+            "retirada",
+            "rodes",
+            "adequació"
+        ]
     },
     {
-        "id": "4",
-        "content": "",
-        "keywords": ["replanteig"]
+        "id": 4,
+        "content": "La destinació de tots el elements a retirar és CENTRE (SENSE TRASLLAT)/DESFERRA.",
+        "keywords": [
+            "replanteig",
+            "retirada",
+            "centre",
+            "adequació",
+            "desferra",
+            "predeterminado"
+        ]
     },
     {
         "id": "5",
-        "content": "",
-        "keywords": ["replanteig"]
+        "content": "L'aula conté un projector que no és apreciable per l'angle de la fotografia.",
+        "keywords": [
+            "replanteig",
+            "retirada",
+            "projector",
+            "adequació"
+        ]
     },
     {
-        "id": "6",
-        "content": "",
-        "keywords": ["replanteig"]
+        "id": 6,
+        "content": "S'ha retirat el projector abans de la fase de replanteig.",
+        "keywords": [
+            "replanteig",
+            "retirada",
+            "projector"
+        ]
     },
     {
-        "id": "7",
-        "content": "",
-        "keywords": ["replanteig"]
+        "id": 7,
+        "content": "La pissarra verda de guix d’aquesta aula està incrustada a la paret.",
+        "keywords": [
+            "replanteig",
+            "retirada",
+            "pissarra",
+            "incrustado"
+        ]
     },
     {
-        "id": "8",
-        "content": "",
-        "keywords": ["replanteig"]
+        "id": 8,
+        "content": "Degut a un error no es va realitzar la foto de replanteig d’aquesta aula i per inviabilitat no la podem afegir.",
+        "keywords": [
+            "replanteig",
+            "nomenclatura",
+            "foto",
+            "inviable"
+        ]
     },
     {
-        "id": "9",
-        "content": "",
-        "keywords": ["replanteig"]
+        "id": 9,
+        "content": "Al plànol el centre indica que l'aula XXXX s'anomena XXXX.",
+        "keywords": [
+            "replanteig",
+            "plano",
+            "nomenclatura"
+        ]
     },
     {
-        "id": "10",
-        "content": "",
-        "keywords": ["replanteig"]
+        "id": 10,
+        "content": "L'aula amb codi XXXXXX, anomenada XXXXXX, també es pot anomenar XXXXXX.",
+        "keywords": [
+            "replanteig",
+            "plano",
+            "nomenclatura"
+        ]
+    },
+    {
+        "id": 11,
+        "content": "El centre ha transformat aquesta aula en un aula docent.",
+        "keywords": [
+            "replanteig",
+            "plano",
+            "nomenclatura",
+            "docente"
+        ]
+    },
+    {
+        "id": 12,
+        "content": "Degut a un error ortogràfic, tot i que a la foto posa XX, aquesta correspon a l'aula YY",
+        "keywords": [
+            "replanteig",
+            "instal·lació",
+            "plano",
+            "nomenclatura",
+            "foto"
+        ]
+    },
+    {
+        "id": 13,
+        "content": "Nombre total d'elements desinstal·lats: 4. Kit de projecció (projector i caixa de connexions), Altaveus, Pissarra blanca.",
+        "keywords": [
+            "instal·lació",
+            "adequació",
+            "retirada",
+            "projector",
+            "pissarra",
+            "predeterminado"
+        ]
+    },
+    {
+        "id": 14,
+        "content": "No s'ha requerit cap adequació, el panell s'ha instalat amb suport de rodes.",
+        "keywords": [
+            "instal·lació",
+            "retirada",
+            "rodes"
+        ]
+    },
+    {
+        "id": 15,
+        "content": "No es retiren el següents elements a petició del centre: Kit de projecció (projector, pantalla enrotllable i caixa de connexions), Altaveus, PDI , Panell digital antic, Pissarra blanca, Pissarra verda de guix, Suro, Mobiliari genèric (prestatges, armaris, taula...).",
+        "keywords": [
+            "instal·lació",
+            "retirada",
+            "pissarra",
+            "predeterminado"
+        ]
+    },
+    {
+        "id": 16,
+        "content": "Nombre total d'elements desinstal·lats: No es requereix adequació.",
+        "keywords": [
+            "instal·lació",
+            "retirada",
+            "adequació"
+        ]
+    },
+    {
+        "id": 17,
+        "content": "El projector amb S/N: XXXXX té destinació DESFERRA.",
+        "keywords": [
+            "replanteig",
+            "instal·lació",
+            "projector",
+            "retirada",
+            "desferra"
+        ]
+    },
+    {
+        "id": 18,
+        "content": "El centre ha procedit a la retirada del material necessari abans de dur a terme la instal·lació.",
+        "keywords": [
+            "instal·lació",
+            "retirada",
+            "projector",
+            "pissarra",
+            "adequació"
+        ]
+    },
+    {
+        "id": 19,
+        "content": "El SACE/TIC/SN del projector d’aquesta aula és el següent:",
+        "keywords": [
+            "instal·lació",
+            "retirada",
+            "projector",
+            "SACE",
+            "SN"
+        ]
+    },
+    {
+        "id": 20,
+        "content": "A causa de la falta de la foto de desinstal·lació, no és possible afegir el SACE o SN del projector retirat.",
+        "keywords": [
+            "instal·lació",
+            "inviable",
+            "retirada",
+            "SACE",
+            "SN"
+        ]
+    },
+    {
+        "id": 21,
+        "content": "El panell s'instal·larà a la dreta a causa de la presència d'un radiador.",
+        "keywords": [
+            "replanteig",
+            "instal·lació",
+            "radiador"
+        ]
+    },
+    {
+        "id": 22,
+        "content": "El centre ha desconnectat el radiador d’aquesta aula.",
+        "keywords": [
+            "replanteig",
+            "instal·lació",
+            "radiador"
+        ]
+    },
+    {
+        "id": 23,
+        "content": "Canvi a suport amb potes per paret inconsistent (pladur o altres materials no segurs).",
+        "keywords": [
+            "replanteig",
+            "instal·lació",
+            "soporte"
+        ]
+    },
+    {
+        "id": 24,
+        "content": "Canvi de suport a rodes per impossibilitat tècnica a l'aula (motiu: radiador, pica, mòdul...).",
+        "keywords": [
+            "replanteig",
+            "instal·lació",
+            "soporte"
+        ]
+    },
+    {
+        "id": 25,
+        "content": "Per problemes estructurals a l'aula ha estat necessari realitzar un canvi del suport X per un suport X respecte a la demanda",
+        "keywords": [
+            "replanteig",
+            "instal·lació",
+            "soporte"
+        ]
+    },
+    {
+        "id": 26,
+        "content": "Es fa un canvi de suport per ajustar-se a les necessitats pedagògiques a l'aula i adaptar-se a l'ús lectiu que se li dona i a la franja d'edat dels alumnes corresponents",
+        "keywords": [
+            "replanteig",
+            "instal·lació",
+            "soporte"
+        ]
+    },
+    {
+        "id": 27,
+        "content": "Per requeriments tècnics de l'espai disponible a l'aula, es modifica la mida del panell respecte la demanda de X a X.",
+        "keywords": [
+            "replanteig",
+            "instal·lació",
+            "soporte"
+        ]
+    },
+    {
+        "id": 28,
+        "content": "La destinació de tots els elements retirats és CENTRE (SENSE TRASLLAT).",
+        "keywords": [
+            "instal·lació",
+            "adequació",
+            "centre",
+            "predeterminado"
+        ]
     }
 ]
