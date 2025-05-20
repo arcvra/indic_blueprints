@@ -5,7 +5,7 @@ import { CustomBadge } from "@/components/CustomBadge";
 import { useRef } from "react";
 import styles from "@/app/styles/article.module.css";
 
-const ComentarioItem = ({ item }) => {
+const CreateCards = ({ item }) => {
     const textRef = useRef(null);
 
     const handleCopy = () => {
@@ -32,7 +32,7 @@ const ComentarioItem = ({ item }) => {
                 <CustomTooltip onClick={handleCopy} />
 
                 <ul className="flex gap-4 mt-3 mb-3">
-                    <GetCategories keywords={item.keywords} />
+                    <RenderCategories keywords={item.keywords} />
                 </ul>
             </article>
 
@@ -40,14 +40,13 @@ const ComentarioItem = ({ item }) => {
     )
 }
 
-export const ReadComentarios = ({items}) => {
+export const MapItems = ({items}) => {
     return items.map((item) => (
-        <ComentarioItem key={item.id} item={item} />
+        <CreateCards key={item.id} item={item} />
     ))
-
 }
 
-export const GetCategories = ({ keywords }) => {
+export const RenderCategories = ({ keywords }) => {
     return keywords.map((keyword, index) => (
         <li key={index}> <CustomBadge category={keyword} /> </li>
     ));

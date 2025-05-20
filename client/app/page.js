@@ -1,5 +1,5 @@
 import templates from "@/app/data/templates.json";
-import { ReadComentarios } from "@/app/features/ReadComentarios";
+import { MapItems } from "@/app/features/RenderCards";
 import { filterByCategory } from "@/utils/filterByCategory";
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <main className="main-layout grid px-20 gap-y-20 bg-black-900 py-10">
-      <ReadComentarios items={items} />
+      <MapItems items={items} />
     </main>
   );
 }
