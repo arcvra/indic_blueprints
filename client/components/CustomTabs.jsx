@@ -8,10 +8,10 @@ export function CustomTabs({ file }) { // TODO: add categories and style
             <TabsList className="border-neutral-900 border-2 gap-5 px-2 h-15">
                 <TabsTrigger value="predeterminado" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Predeterminado</TabsTrigger>
                 <TabsTrigger value="firma" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Firma</TabsTrigger>
-                <TabsTrigger value="completo" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Completo</TabsTrigger>
                 <TabsTrigger value="disculpas" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Disculpas</TabsTrigger>
                 <TabsTrigger value="corrección" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Corrección</TabsTrigger>
                 <TabsTrigger value="formato" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Formato</TabsTrigger>
+                <TabsTrigger value="completo" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Completo</TabsTrigger>
                 <TabsTrigger value="" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Todos</TabsTrigger>
             </TabsList>
 
@@ -21,10 +21,6 @@ export function CustomTabs({ file }) { // TODO: add categories and style
 
             <TabsContent value="firma">
                 <MapItems items={filterByCategory({ file: file, tag: "firma" })} />
-            </TabsContent>
-
-            <TabsContent value="completo">
-                <MapItems items={filterByCategory({ file: file, tag: "completo" })} />
             </TabsContent>
 
             <TabsContent value="disculpas">
@@ -37,6 +33,10 @@ export function CustomTabs({ file }) { // TODO: add categories and style
 
             <TabsContent value="formato">
                 <MapItems items={filterByCategory({ file: file, tag: "formato" })} />
+            </TabsContent>
+
+            <TabsContent value="completo">
+                <MapItems items={filterByCategory({ file: file, tag: "completo" })} />
             </TabsContent>
 
             <TabsContent value="">
