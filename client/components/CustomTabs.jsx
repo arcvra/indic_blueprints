@@ -5,7 +5,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 export function CustomTabs({ file }) { // TODO: add categories and style
     return (
         <Tabs defaultValue="predeterminado">
-            <TabsList className="border-neutral-700 border-2 gap-5 px-2 h-15">
+            <TabsList className="border-neutral-900 border-2 gap-5 px-2 h-15">
                 <TabsTrigger value="predeterminado" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Predeterminado</TabsTrigger>
                 <TabsTrigger value="firma" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Firma</TabsTrigger>
                 <TabsTrigger value="completo" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Completo</TabsTrigger>
