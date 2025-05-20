@@ -10,6 +10,7 @@ export function CustomTabs({ file }) { // TODO: add categories and style
                 <TabsTrigger value="firma" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Firma</TabsTrigger>
                 <TabsTrigger value="disculpas" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Disculpas</TabsTrigger>
                 <TabsTrigger value="corrección" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Corrección</TabsTrigger>
+                <TabsTrigger value="serveis" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Servicios</TabsTrigger>
                 <TabsTrigger value="formato" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Formato</TabsTrigger>
                 <TabsTrigger value="completo" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Completo</TabsTrigger>
                 <TabsTrigger value="" className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300">Todos</TabsTrigger>
@@ -29,6 +30,10 @@ export function CustomTabs({ file }) { // TODO: add categories and style
 
             <TabsContent value="corrección">
                 <MapItems items={filterByCategory({ file: file, tag: "corrección" })} />
+            </TabsContent>
+
+            <TabsContent value="serveis">
+                <MapItems items={filterByCategory({ file: file, tag: "serveis" })} />
             </TabsContent>
 
             <TabsContent value="formato">
