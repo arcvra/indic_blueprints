@@ -7,6 +7,7 @@ export const getTabsByFile = (filename) => {
             { label: "Corrección", value: "corrección" },
             { label: "Servicios", value: "serveis" },
             { label: "Formato", value: "formato" },
+            { label: "Múltiple", value: "múltiple" },
             { label: "Completo", value: "completo" },
             { label: "Todos", value: "" }, // Todos con value vacío
         ];
