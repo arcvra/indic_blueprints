@@ -19,7 +19,7 @@ export function CustomTooltip({ onClick }) {
                         size="icon"
                         aria-label="Copiar texto"
                         onClick={onClick}
-                        className="absolute top-3 right-3 cursor-pointer"
+                        className="absolute top-3 right-3 cursor-pointer active:scale-90"
                     >
                         <Copy />
                     </Button>

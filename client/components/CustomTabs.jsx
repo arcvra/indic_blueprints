@@ -34,7 +34,7 @@ const RenderTabsByFile = ({ filename }) => {
         <TabsTrigger
             key={index}
             value={value}
-            className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300"
+            className="h-10 py-2 border-1 border-neutral-900 shadow-neutral-900 shadow cursor-pointer hover:bg-neutral-900 transition ease-in-out duration-300 active:scale-98"
         >
             {label}
         </TabsTrigger>
