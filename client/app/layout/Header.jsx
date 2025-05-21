@@ -28,7 +28,7 @@ export default function Header() {
                     </li>
                     <Separator orientation="vertical" />
                     <li>
-                        <a className="items-baseline" target="_blank" href="https://github.com/arcvra">
+                        <a className="items-baseline" target="_blank" href="https://github.com/arcvra/indic_blueprints/">
                             <FaGithub className="h-5 w-full" />
                         </a>
                     </li>
