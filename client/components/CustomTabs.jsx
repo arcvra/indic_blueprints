@@ -3,6 +3,12 @@ import { getTabsByFile } from "@/utils/getTabsByFile"
 import { filterByCategory } from "@/utils/filterByCategory"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
+/**
+ *
+ * @param {"templates" | "comments"} fileType - Tipo de archivo para determinar el layout de tabs.
+ * @param {Array<Object>} file - Datos a renderizar dentro de las tabs
+ */
+
 export function CustomTabs({ fileType, file }) {
     return (
         <Tabs defaultValue="predeterminado">
@@ -10,12 +16,17 @@ export function CustomTabs({ fileType, file }) {
                 <RenderTabsByFile filename={fileType} />
             </TabsList>
 
-            <RenderTabsContentByFile file={fileType} data={file} />
+            <RenderTabsContentByFile filename={fileType} data={file} />
 
         </Tabs>
     )
 }
 
+/**
+ * 
+ * @param {string} filename - String "templates" o "comments"; detecta qué tabs renderizar 
+ * @returns {JSX.Element[]} Un array de componentes TabsTrigger
+ */
 const RenderTabsByFile = ({ filename }) => {
     const tags = getTabsByFile(filename);
 
@@ -30,8 +41,15 @@ const RenderTabsByFile = ({ filename }) => {
     ))
 }
 
-const RenderTabsContentByFile = ({ file, data }) => {
-    const tabs = getTabsByFile(file);
+
+/**
+ * 
+ * @param {string} filename - String "templates" o "comments"; detecta qué secciones renderizar 
+ * @param {Array<Object>} data - Array de objetos; lee el contenido correspondiente al archivo
+ * @returns {JSX.Element[]} - Un array de componentes TabsContent
+ */
+const RenderTabsContentByFile = ({ filename, data }) => {
+    const tabs = getTabsByFile(filename);
 
     return tabs.map(({ value }, index) => (
         <TabsContent key={index} value={value}>
