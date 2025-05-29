@@ -276,5 +276,16 @@
             "centre",
             "predeterminado"
         ]
+    },
+    {
+        "id": 29,
+        "content": "Aquesta aula, antigament anomenada ABCDE, s’ha reconvertit en aula docent i actualment acull el grup de XX.",
+        "keywords": [
+            "instal·lació",
+            "adequació",
+            "inviable",
+            "nomenclatura",
+            "plano"
+        ]
     }
 ]
