@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "content": "DESINSTAL·LACIÓ PANELL/PROJECTOR",
+        "keywords": [
+            "desinstal·lació",
+            "projector"
+        ]
+    },
+    {
+        "id": 2,
+        "content": "INSTAL·LACIÓ DE PUNT ELÈCTRIC",
+        "keywords": [
+            "instal·lació",
+            "punt"
+        ]
+    },
+    {
+        "id": 3,
+        "content": "INSTAL·LACIÓ DE PUNT DE XARXA",
+        "keywords": [
+            "instal·lació",
+            "punt"
+        ]
+    },
+    {
+        "id": 4,
+        "content": "INSTAL·LACIÓ DE SUPORT DE PARET FIX",
+        "keywords": [
+            "instal·lació",
+            "suport"
+        ]
+    },
+    {
+        "id": 5,
+        "content": "INSTAL·LACIÓ DE SUPORT A PARET REGULABLE",
+        "keywords": [
+            "instal·lació",
+            "suport"
+        ]
+    },
+    {
+        "id": 6,
+        "content": "INSTAL·LACIÓ DE SUPORT REGULABLE A PARET AMB POTES ",
+        "keywords": [
+            "instal·lació",
+            "suport"
+        ]
+    },
+    {
+        "id": 7,
+        "content": "INSTAL·LACIÓ DE SUPORT FIX A PARET AMB POTES ",
+        "keywords": [
+            "instal·lació",
+            "suport"
+        ]
+    },
+    {
+        "id": 8,
+        "content": "INSTAL·LACIÓ DE SUPORT FIX AMB RODES",
+        "keywords": [
+            "instal·lació",
+            "suport"
+        ]
+    },
+        {
+        "id": 9,
+        "content": "INSTAL·LACIÓ DE SUPORT AMB RODES REGULABLE ",
+        "keywords": [
+            "instal·lació",
+            "suport"
+        ]
+    }
+]
